@@ -554,8 +554,8 @@ Response: "server is up and running"
 
 **Need Help?**
 
-📧 Email: support@homeservices.com  
-📱 Phone: +1 (555) 123-4567  
+📧 Email: priyanshurazz4@gmail.com 
+📱 Phone: +91 9872607996 
 💬 Chat: Available 24/7  
 
 </div>
