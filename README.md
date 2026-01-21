@@ -453,9 +453,7 @@ graph TD
 
 ```bash
 # Development
-npm run dev          # Start with nodemon
 npm start           # Production start
-npm test            # Run tests
 
 # Database
 npx sequelize-cli db:migrate        # Run migrations
