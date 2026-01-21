@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>OTP Verification</title>
+</head>
+
+<body style="
+      margin: 0;
+      padding: 0;
+      background-color: #020617;
+      font-family: Arial, Helvetica, sans-serif;
+    ">
+  <!-- FULL WIDTH WRAPPER -->
+  <table width="100%" cellpadding="0" cellspacing="0" style="background: #020617">
+    <tr>
+      <td style="padding: 40px 16px">
+        <!-- FULL WIDTH CARD -->
+        <table width="100%" cellpadding="0" cellspacing="0" style="
+              background: #020617;
+              border: 1px solid #1e293b;
+              border-radius: 10px;
+              padding: 28px;
+            ">
+          <!-- HEADER -->
+          <tr>
+            <td style="text-align: center; padding-bottom: 22px">
+              <h2 style="
+                    margin: 0;
+                    color: #e5e7eb;
+                    font-weight: 600;
+                    letter-spacing: 0.4px;
+                  ">
+                🔐 OTP Verification
+              </h2>
+              <p style="margin: 8px 0 0; font-size: 13px; color: #94a3b8">
+                Secure access confirmation
+              </p>
+            </td>
+          </tr>
+
+          <!-- BODY -->
+          <tr>
+            <td style="color: #cbd5f5; font-size: 15px; line-height: 1.7">
+              <p style="margin-top: 0">
+                Hi <strong style="color: #f8fafc">{{username}}</strong>,
+              </p>
+
+              <p>
+                🔑 Use the One-Time Password below to complete your
+                verification. This code is valid for
+                <strong style="color: #f8fafc">{{expiryMinutes}} minutes</strong>.
+              </p>
+            </td>
+          </tr>
+
+          <!-- OTP BOX -->
+          <tr>
+            <td align="center" style="padding: 26px 0">
+              <div style="
+                    background: #020617;
+                    border: 1px dashed #334155;
+                    border-radius: 8px;
+                    padding: 16px 28px;
+                    display: inline-block;
+                    font-size: 26px;
+                    letter-spacing: 8px;
+                    font-weight: 700;
+                    color: #f8fafc;
+                    font-family: 'Courier New', Courier, monospace;
+                  ">
+                {{otp}}
+              </div>
+            </td>
+          </tr>
+
+          <!-- SECURITY NOTE -->
+          <tr>
+            <td style="
+                  background: #020617;
+                  border: 1px solid #1e293b;
+                  border-radius: 8px;
+                  padding: 14px 16px;
+                  color: #94a3b8;
+                  font-size: 13px;
+                  line-height: 1.6;
+                ">
+              💡 <strong style="color: #e5e7eb">Security tip:</strong>
+              Never share your OTP with anyone — even if they claim to be from
+              support.
+            </td>
+          </tr>
+
+          <!-- DIVIDER -->
+          <tr>
+            <td style="padding-top: 24px">
+              <div style="height: 1px; background: #1e293b"></div>
+            </td>
+          </tr>
+
+          <!-- FOOTER -->
+          <tr>
+            <td style="
+                  padding-top: 18px;
+                  text-align: center;
+                  font-size: 12px;
+                  color: #64748b;
+                ">
+              <p style="margin: 0">🔒 This is an automated security email</p>
+              <p style="
+                    margin: 6px 0 0;
+                    color: #ffffff;
+                    margin: 15px 0 0 0;
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                    font-style: italic;
+                    font-family: 'Times New Roman', serif;
+                  ">
+                © 2026 PR Corporation
+              </p>
+            </td>
+          </tr>
+        </table>
+        <!-- END FULL WIDTH CARD -->
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
